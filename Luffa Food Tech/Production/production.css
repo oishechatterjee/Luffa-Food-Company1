@@ -1,0 +1,124 @@
+:root{
+  --accent:#2aa84f;
+  --muted:#6b7280;
+  --bg:#f7faf9;
+  --card:#ffffff;
+  --radius:12px;
+  --shadow: 0 10px 30px rgba(2,6,23,0.06);
+  --max:1100px;
+  --glass: rgba(255,255,255,0.6);
+}
+
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  background:linear-gradient(180deg,#f4fbf6 0%,#f7faf9 100%);
+  color:#0f172a;
+  -webkit-font-smoothing:antialiased;
+}
+
+
+
+/* Container */
+.container{max-width:var(--max);margin:20px auto;padding:0 18px}
+
+/* Intro */
+.intro h2{margin:0;font-size:20px}
+.lead{color:var(--muted);margin-top:8px;max-width:760px}
+
+
+/* Grid of cards */
+.card1{
+  background-color:#c8e6c9;
+  text-align: center;
+  border: 2px;
+  padding-bottom: 20px;
+  
+}
+.list{
+  text-align: justify;
+}
+
+.card1:hover{
+
+  background-color: #81c784;
+}
+
+
+
+.grid{display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+  gap:16px;
+  margin-top:20px;}
+.card{display:grid;
+  grid-template-rows:auto 1fr;
+  gap:10px;background:var(--card);
+  padding:12px;border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  border:1px solid #eef6ef;
+  transition:transform .18s, box-shadow .18s}
+
+
+.card:hover{transform:translateY(-6px);
+  box-shadow:0 18px 38px #81c784}
+
+.card-media{height:90px;
+  border-radius:10px;
+  display:flex;
+  align-items:center;justify-content:center;overflow:hidden;border:1px solid #f0f6f2;background:linear-gradient(180deg,#fff,#fbfff9)}
+.card-body h3{margin:0;font-size:16px}
+.desc{margin:8px 0;color:var(--muted);font-size:14px}
+.meta{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.tag{
+  background:var(--accent);color:#fff;padding:6px 8px;border-radius:8px;font-weight:700;font-size:13px}
+
+
+/* ===== NAVIGATION ===== */
+nav{
+  background:#c8e6c9;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  padding:10px 0;
+}
+
+nav a{
+  text-decoration:none;
+  color:#1b5e20;
+  background:#e8f5e9;
+  margin:5px;
+  padding:10px 15px;
+  border-radius:8px;
+  font-weight:600;
+}
+
+nav a:hover{
+  background:#81c784;
+  color:white;
+}
+/*div*/
+.head{
+text-align: center;
+border:2px;
+background-color: #81c784;
+border-radius: 30px;
+
+
+}
+
+
+/* ===== FOOTER ===== */
+footer{
+  background:#388e3c;
+  color:white;
+  text-align:center;
+  padding:15px;
+  margin-top:40px;
+}
+
+footer a{
+  color:#c8e6c9;
+  text-decoration:none;
+}
+</style>

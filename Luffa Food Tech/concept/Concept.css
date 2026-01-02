@@ -1,0 +1,160 @@
+<style>
+/* === Basic Style === */
+body {
+  margin: 0;
+  
+  color: #2e4734;
+  background-color: #e8f5e9;
+}
+
+/* === Navigation Bar === */
+nav {font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgba(165,214,167,0.9); /* light and classy */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  position: relative;
+  z-index: 2;
+}
+nav a {
+  text-decoration: none;
+  color: #1b5e20;
+  background: #c8e6c9;
+  margin: 5px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  transition: background 0.3s;
+  font-weight: 600;
+}
+nav a:hover {
+  background: #81c784;
+  color: white;
+}
+
+/* === Page Background with Overlay === */
+.page-bg {
+  background: linear-gradient(rgba(255,255,255,0.48), rgba(255,255,255,0.48)),
+              url("Luffa.jpeg") no-repeat center top;
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 30px; /* spacing below nav */
+}
+
+/* === Main Container === */
+.container{
+  width: 80%;
+  margin: 30px auto;
+  background: rgba(255,255,255,0.85); /* semi-transparent */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Titles */
+h1{ margin: 20px;
+  background-color: rgba(165,214,167,0.9);
+  text-align: center;
+  color: #26734d;
+}
+
+a{
+  color: #0077cc;
+  text-decoration: none;
+  font-style: italic;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+/* Intro text */
+.text-box{
+  line-height: 1.6;
+  height: 4.8em;
+  overflow: hidden;
+  position: relative;
+  transition: 0.6s;
+}
+.text-box:hover{
+  height: auto;
+}
+.text-box::after{
+  content:"";
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  height:40px;
+  background:linear-gradient(to top, rgba(255,255,255,0.85), transparent);
+}
+.text-box:hover::after{
+  opacity:0;
+}
+
+/* Section titles */
+.section-title{
+  color:#1b5e20;
+  margin-top:40px;
+  border-left:5px solid #66bb6a;
+  padding-left:10px;
+}
+
+/* Lists */
+ul{
+  margin-left:40px;
+  line-height:1.7;
+}
+
+/* Cards */
+.matter{
+  display:flex;
+  flex-wrap:wrap;
+  gap:15px;
+}
+.card{
+  width:45%;
+  background:rgba(240,250,240,0.9);
+  padding:15px;
+  border-radius:12px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+.card:hover{
+  transform:translateY(-4px);
+  background: #81c784;
+  
+}
+
+/* Goals */
+.goals{
+  background:rgba(249,255,249,0.9);
+  padding:15px;
+  border-radius:10px;
+  box-shadow:inset 0 0 5px rgba(0,0,0,0.1);
+}
+
+/* Future */
+.future{
+  background:rgba(238,250,240,0.9);
+  padding:15px;
+  border-left:5px solid #81c784;
+  border-radius:10px;
+}
+
+/* === Footer === */
+footer {
+  background-color: rgba(56,142,60,0.9);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 0.95em;
+}
+footer a {
+  color: #c8e6c9;
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+</style>

@@ -1,0 +1,175 @@
+/*div */
+.container{
+    text-align: center;
+    display: flex;
+    color: black;
+    
+}
+
+.cell{border: 50px ;
+  font-family: cursive;
+  text-decoration-color: black;
+font-size: medium;    
+
+    height: 300px;
+  display: flex;
+   
+    
+    
+    text-align: center;
+    background-position:center;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    background-image:linear-gradient(rgba(255,255,255,.35))
+    ,url(Scientis.jpeg) ;
+    
+  
+  color:black;
+  
+    
+    
+}
+.stats-grid{
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+}
+.stats-grid h2{
+  color:black;
+  font-size: 2rem;
+  background-color: #81c784;
+}
+.outline-btn{
+  border: 1px solid #4dc3ff;
+  background:#c8e6c9;
+  background:
+  color:white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.outline-btn:hover{
+ background-color:  #81c784;
+}
+
+/* ===== NAVIGATION ===== */
+nav{
+  background:#c8e6c9;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  padding:10px 0;
+}
+
+nav a{
+  text-decoration:none;
+  color:#1b5e20;
+  background:#e8f5e9;
+  margin:5px;
+  padding:10px 15px;
+  border-radius:8px;
+  font-weight:600;
+}
+
+nav a:hover{
+  background:#81c784;
+  color:white;
+}
+
+
+
+
+
+
+/* Cards Grid */
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 20px;
+  margin-top: 30px;
+
+}
+.card{background-image:linear-gradient(rgba(255,255,255,.3)) ,url(green.jpeg);
+  
+  padding: 30px;
+  text-align: center;
+  border-radius: 8px;}
+  .card:hover{size: 100px;
+  transform: translateY(-10px);
+  box-shadow: 20px 6px 20px #1b5e20;
+  size: 50px;
+  }
+  .learn-more{
+    color: black;
+    background:white;
+  }
+.learn-more:hover{
+  background-color: #81c784;
+}
+.innovation{ 
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .table,tr :nth-child(2n+1){
+          background-color: #81c784; 
+        }
+        
+  
+.table,th,td{text-align: center;
+
+font-family: Arial, Helvetica, sans-serif;
+
+  padding: 20px 30px;
+  border-collapse: collapse;
+  
+  border: 2px solid black;
+  
+}
+
+
+
+/* The Background  */
+.model-content{
+  display: none;/* Hidden by default */
+  position:sticky;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  text-align: center;
+}
+/* The  Box */
+.model-content{
+  background-color: #81c784;
+  
+
+}
+/* The Close Button */
+.close-btn {
+  position: absolute;
+  right: 15px;
+  top: 10px;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+/* ===== FOOTER ===== */
+footer{
+  background:#388e3c;
+  color:white;
+  text-align:center;
+  padding:15px;
+  margin-top:40px;
+}
+
+footer a{
+  color:#c8e6c9;
+  text-decoration:none;
+}
+</style>

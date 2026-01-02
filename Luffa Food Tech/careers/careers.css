@@ -1,0 +1,163 @@
+ <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom right, rgba(144, 238, 144, 0.3), rgba(255, 255, 200, 0.3));
+            margin: 0;
+            padding-top: 120px; 
+        
+        }
+h1{
+    text-align: center;
+}
+
+
+
+nav{
+  background:#c8e6c9;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  padding:10px 0;
+}
+
+nav a{
+  text-decoration:none;
+  color:#1b5e20;
+  background:#e8f5e9;
+  margin:5px;
+  padding:10px 15px;
+  border-radius:8px;
+  font-weight:600;
+}
+
+nav a:hover{
+  background:#81c784;
+  color:white;
+}
+
+
+        .container {
+            width: 80%;
+            max-width: 850px;
+            background: white;
+            margin: 40px auto;
+            padding: 35px;
+            border-radius: 15px;
+            border: 2px solid #c5f7c5;
+            background: linear-gradient(to bottom, #ffffff, #f3fff3);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        form{
+margin-top: 120px;
+
+
+
+        }
+
+        summary {
+            cursor: pointer;
+            font-size: 22px;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #0b4f0b;
+            padding: 10px;
+            background: #d9ffd9;
+            border-radius: 8px;
+            border: 1px solid #b6ebb6;
+            transition: 0.3s;
+        }
+
+        summary:hover {
+            background: #c9f7c9;
+        }
+
+        details p {
+            padding: 12px 10px;
+            line-height: 1.6;
+            background: #f3fff3;
+            border-left: 4px solid #4caf50;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+
+        form label {
+            display: block;
+            margin-top: 18px;
+            font-weight: bold;
+            color: #1e4d1e;
+        }
+        
+
+
+        form input, form textarea, form select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 6px;
+            border: 1px solid #a6d8a6;
+            background: #a6d8a6;}
+
+        form input:focus, form textarea:focus, form select:focus {
+            border-color: #4caf50;
+            box-shadow: 0 0 5px rgba(76,175,80,0.3);
+            outline: none;
+        }
+
+        button {
+            margin-top: 25px;
+            padding: 12px 20px;
+            background: #81c784;
+            color: black;
+            border: none;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            width: 100%;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background: #2d8f2d;
+        }
+        /* Responsive */
+@meeqgrke(max-width: 850px) {
+  .contact-card {
+    flex-direction: column;
+  }
+
+  .navbar {
+    padding: 15px 30px;
+  }
+
+  .form-left,
+  .info-right {
+    padding: 25px;
+  }
+}
+.contact{ border: 2px ;
+  height: 300px;
+  background-image: linear-gradient(rgba(255,255,255,.1)),url(Luffa.jpeg);
+  padding-top: 80px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+/* ===== FOOTER ===== */
+footer{
+  background:#388e3c;
+  color:white;
+  text-align:center;
+  padding:15px;
+  margin-top:40px;
+}
+
+footer a{
+  color:#c8e6c9;
+  text-decoration:none;
+}
+</style>
+
+
+
+
+
+    </style>

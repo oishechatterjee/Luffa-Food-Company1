@@ -1,0 +1,103 @@
+<style>
+/* ===== BASIC ===== */
+body{
+  margin:0;
+  
+  color:#2e4734;
+  background:#e8f5e9; /* fallback */
+}
+
+
+
+/* ===== HEADER (same tone as nav) ===== */
+header{
+  background:#a5d6a7;
+  text-align:center;
+  padding:30px 10px;
+  border-bottom:3px solid #81c784;
+}
+
+header h1{
+  margin:0;
+  font-size:2.4em;
+  font-style:italic;
+  color:#1b5e20;
+}
+
+header p{
+  margin-top:6px;
+  font-size:1.1em;
+  color:#2e4734;
+}
+
+/* ===== NAVIGATION ===== */
+nav{font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background:#c8e6c9;
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  padding:10px 0;
+}
+
+nav a{
+  text-decoration:none;
+  color:#1b5e20;
+  background:#e8f5e9;
+  margin:5px;
+  padding:10px 15px;
+  border-radius:8px;
+  font-weight:600;
+}
+
+nav a:hover{
+  background:#81c784;
+  color:white;
+}
+
+/* ===== BACKGROUND STARTS AFTER NAV ===== */
+.page-bg{
+  background:
+    linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255,255,255,0.3)
+    ),
+    url("Luffa.jpeg");
+height: 380px;
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  background-attachment:fixed;
+}
+
+/* ===== MAIN ===== */
+main{
+  padding:40px;
+  text-align:center;
+}
+
+main h2{
+  color:#2e7d32;
+  font-size:1.9em;
+}
+
+main p{
+  font-size:1.1em;
+  width:80%;
+  margin:15px auto;
+  line-height:1.7;
+}
+
+/* ===== FOOTER ===== */
+footer{
+  background:#388e3c;
+  color:white;
+  text-align:center;
+  padding:15px;
+  margin-top:40px;
+}
+
+footer a{
+  color:#c8e6c9;
+  text-decoration:none;
+}
+</style>
